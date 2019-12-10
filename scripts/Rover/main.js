@@ -1,5 +1,5 @@
-import SearchComponent from "./SearchComponent.js"
-import addSearchEventListeners from "./SearchEventListener.js"
+import SearchHTML from "./SearchHTML.js"
+import addSearchEventListener from "./SearchListener.js"
 
-SearchComponent()
-addSearchEventListeners()
+SearchHTML()
+addSearchEventListener()

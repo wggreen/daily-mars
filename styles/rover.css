@@ -2,3 +2,30 @@
     display: flex;
     justify-content: center;
 }
+
+.rover_photos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rover_data {
+    flex-basis: 30%;
+    margin: 5px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+.rover__info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.rover___image {
+    width: 200px;
+    height: 200px;
+}

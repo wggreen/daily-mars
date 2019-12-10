@@ -1,4 +1,4 @@
-const SearchComponent = () => {
+const SearchHTML = () => {
 
     const contentElement = document.querySelector(".date_search")
 
@@ -9,4 +9,4 @@ const SearchComponent = () => {
     `
 }
 
-export default SearchComponent
+export default SearchHTML
