@@ -1,0 +1,51 @@
+/* .APODS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+.APOD {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+.APOD_info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.APOD_title {
+    display: flex;
+    justify-content: center;
+}
+
+.APOD__img {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    margin: 10px 0px;
+}
+
+.APOD_photo {
+    display: flex;
+    justify-content: center;
+
+}
+
+article div span {
+    display: flex;
+    justify-content: center;
+}
+
+.APOD__date {
+    margin-bottom: 10px;
+
+}

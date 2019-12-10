@@ -1,4 +1,5 @@
 @import "./rover.css";
+@import "./APOD.css";
 
 h1 {
     text-align: center;
@@ -7,6 +8,11 @@ h1 {
 img {
     width: 75%;
     height: 100%;
+}
+
+.date_search {
+    display: flex;
+    justify-content: center;
 }
 
 .apiButtons {

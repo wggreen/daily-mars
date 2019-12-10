@@ -1,18 +1,18 @@
 import PhotoHTML from "./PhotoHTML.js"
-import usePhotos from "./PhotoFetcher.js"
+import usePhoto from "./PhotoFetcher.js"
 
 const PhotoList = () => {
 
-    let fetchedPhotos = usePhotos()
+    let fetchedPhoto = usePhoto()
 
 
     // Get a reference to the `<section class="fishList">` element
-    const contentTarget = document.querySelector(".rover_photos")
+    const contentTarget = document.querySelector(".APODS")
 
     // Add to the existing HTML in the content element
     contentTarget.innerHTML = `
             ${
-                fetchedPhotos.map(photo => PhotoHTML(photo)).join(" ")
+                PhotoHTML(fetchedPhoto)
             }
     `
 }
