@@ -1,5 +1,5 @@
-import SearchHTML from "./SearchHTML.js"
 import addSearchEventListener from "./SearchListener.js"
+import ProbeSelect from "./ProbeSelect.js"
 
-SearchHTML()
+ProbeSelect()
 addSearchEventListener()

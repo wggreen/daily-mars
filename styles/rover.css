@@ -24,3 +24,9 @@ h2 {
     width: 200px;
     height: 200px;
 }
+
+#search_area {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
