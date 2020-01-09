@@ -40,12 +40,18 @@ h2 {
 
 }
 
-article div span {
-    display: flex;
-    justify-content: center;
-}
-
 .APOD__date {
     margin-bottom: 10px;
+}
 
+.favorites {
+    display: flex;
+    flex-direction: column;
+}
+
+.favorite {
+    margin: 10px 0px;
+    padding: 5px;
+    border: 1px solid black;
+    max-width: 20%;
 }

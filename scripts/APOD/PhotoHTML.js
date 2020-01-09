@@ -11,12 +11,16 @@ const PhotoHTML = (photo) => {
                 </div>
             <div class="APOD_info">
                 <span class="APOD__date">
-                    Earth date: ${photo.date}
+                    ${photo.date}
                 </span>
                 <span class="APOD__explanation">
                     ${photo.explanation}
                 </span>
             </div>
+            <div class="favorite_button_area">
+                <button id ="favorite_button">
+                    Favorite
+                </button>
         </section>
     `
 }
